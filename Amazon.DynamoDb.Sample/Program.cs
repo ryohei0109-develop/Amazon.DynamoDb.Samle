@@ -28,15 +28,15 @@ namespace Amazon.DynamoDb.Sample
                 Table table = Table.LoadTable(client, tableName);
 
                 // 1項目を作成・更新します。
-                // sampleService.PutItem(client, tableName, sku); // client ver
+                // sampleService.PutItem(client, tableName, sku);   // client ver
                 // sampleService.PutItem(table, sku);   // table ver
 
                 // 1項目を取得します。
-                // sampleService.GetItem(client, tableName, sku);  // client ver
+                // sampleService.GetItem(client, tableName, sku);   // client ver
                 // sampleService.GetItem(table, sku);  //  table ver
 
                 // 複数個の項目を取得します。
-                // sampleService.BatchGetItem(client, tableName); // client ver
+                // sampleService.BatchGetItem(client, tableName);   // client ver
 
                 // 複複数項目の作成・更新・削除を行います。
                 // sampleService.BatchWriteITem(client, tableName);
@@ -46,7 +46,7 @@ namespace Amazon.DynamoDb.Sample
                 // sampleService.Query(table);    // table ver
 
                 // 1項目を削除します。
-                // sampleService.DeleteItem(client, tableName, sku); // client ver
+                // sampleService.DeleteItem(client, tableName, sku);    // client ver
                 // sampleService.DeleteItem(table, sku);   // table ver
 
                 // テーブルを削除します。
